@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 import sys
-import string as str
-traslator = str.maketrains('', '', string.puctuation)
+import string
+traslator = str.maketrans('', '', string.puctuation)
 
 for line in sys.stdin:
 	all_words = set()
